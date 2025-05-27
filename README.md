@@ -81,6 +81,7 @@
 <body>
   <header>
     <h1>All About Corvette</h1>
+    <img src = https://images.seeklogo.com/logo-png/3/2/corvette-c6-logo-png_seeklogo-35763.png
   </header>
   <main>
     <section>
@@ -92,43 +93,42 @@
     <section>
       <h2>Corvette C2 Sting Ray (1963–1967)</h2>
       <p>Famous for its split rear window in 1963, the C2 offered major performance improvements and a bold, aggressive style.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/1963_Corvette_Stingray_Split_Window.jpg" alt="Corvette C2" />
+      <img src=https://static0.topspeedimages.com/wordpress/wp-content/uploads/jpg/201310/chevrolet-corvette-c.jpg alt="Corvette C2" />
     </section>
 
     <section>
       <h2>Corvette C3 (1968–1982)</h2>
       <p>The C3 had a long run with curvy "Coke bottle" styling and was the poster car of the 1970s. Early models were fast, later ones tamed by emissions rules.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/1971_Chevrolet_Corvette_Coupe.jpg" alt="Corvette C3" />
+      <img src="https://coverking.com/cdn/shop/articles/1979_Chevrolet_Corvette_122104_1024x1024.jpg?v=1646167879 alt="Corvette C3" />
     </section>
 
     <section>
       <h2>Corvette C4 (1984–1996)</h2>
       <p>The C4 was a big leap in handling and tech. It introduced a modern dashboard and aerodynamic design, making it a capable and comfortable sports car.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Chevrolet_Corvette_C4.jpg" alt="Corvette C4" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r0waEmvm9yko5SUqP9HdvzLS_zo6ps4B-A&s" alt="Corvette C4" />
     </section>
-
     <section>
       <h2>Corvette C5 (1997–2004)</h2>
       <p>New chassis, new LS1 engine, and better than ever. The C5 redefined the Corvette with 345+ horsepower and solid build quality.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/1999_Chevrolet_Corvette_Coupe.jpg" alt="Corvette C5" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG2KvpmDfOLJ63ex5xN_KshKh0g6hxY8hu5Q&sg" alt="Corvette C5" />
     </section>
 
     <section>
       <h2>Corvette C6 (2005–2013)</h2>
       <p>More refined, more powerful, and the first to ditch pop-up headlights. It introduced the Z06 and ZR1, turning the Corvette into a supercar slayer.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/2008_Chevrolet_Corvette_C6.jpg" alt="Corvette C6" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq3hClUkFm6Pwup1vWwkTFUubQ4zuRPpdtOQ&s" alt="Corvette C6" />
     </section>
 
     <section>
       <h2>Corvette C7 (2014–2019)</h2>
       <p>The return of the Stingray name! With sharp edges and performance to match, the C7 stunned with up to 755hp in the ZR1 version.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/2014_Chevrolet_Corvette_Stingray_Z51.jpg" alt="Corvette C7" />
+      <img src="https://di-uploads-development.dealerinspire.com/hendrickcorvette/uploads/2019/08/Grand-Sport-parked-on-highway-ramp.png" alt="Corvette C7" />
     </section>
 
     <section>
       <h2>Corvette C8 (2020–Present)</h2>
       <p>The first-ever mid-engine Corvette. Supercar looks, incredible balance, and still a value beast. It’s the boldest evolution in Corvette history.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/2020_Chevrolet_Corvette_C8.jpg" alt="Corvette C8" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFJppaSrX6mLPpZ97AIQm2pYWaJ4nDuKUyZA&s" alt="Corvette C8" />
     </section>
   </main>
 </body>
