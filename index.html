@@ -6,14 +6,13 @@
   <title>All About Corvette</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet" />
   <style>
-    /* Reset & base */
     * {
       box-sizing: border-box;
     }
 
     body {
       margin: 0;
-      background-color: #0a0a0a;
+      background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
       color: #eee;
       font-family: 'Orbitron', sans-serif;
       line-height: 1.6;
@@ -65,6 +64,46 @@
       margin-top: 1rem;
       box-shadow: 0 2px 8px rgba(204, 0, 0, 0.6);
       display: block;
+      transition: transform 0.3s ease;
+    }
+
+    section img:hover {
+      transform: scale(1.02);
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #0a0a0a;
+      border-bottom: 2px solid #cc0000;
+      padding: 0.5rem;
+      text-align: center;
+      z-index: 999;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #eee;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #cc0000;
+    }
+
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      background-color: #cc0000;
+      color: #fff;
+      cursor: pointer;
+      display: none;
     }
 
     @media (max-width: 600px) {
@@ -81,55 +120,559 @@
 <body>
   <header>
     <h1>All About Corvette</h1>
-    <img src = https://images.seeklogo.com/logo-png/3/2/corvette-c6-logo-png_seeklogo-35763.png
+    <img src="https://images.seeklogo.com/logo-png/3/2/corvette-c6-logo-png_seeklogo-35763.png" alt="Corvette Logo" />
   </header>
+
+  <nav>
+    <a href="#c1">C1</a>
+    <a href="#c2">C2</a>
+    <a href="#c3">C3</a>
+    <a href="#c4">C4</a>
+    <a href="#c5">C5</a>
+    <a href="#c6">C6</a>
+    <a href="#c7">C7</a>
+    <a href="#c8">C8</a>
+  </nav>
+
   <main>
-    <section>
+    <section id="c1">
       <h2>Corvette C1 (1953–1962)</h2>
       <p>The original Corvette launched in 1953 with a fiberglass body and sleek design. It came with a straight-six engine and quickly became an American icon.</p>
-      <img src=https://upload.wikimedia.org/wikipedia/commons/b/b0/Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg alt="Corvette C1" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg" alt="Corvette C1" />
     </section>
 
-    <section>
+    <section id="c2">
       <h2>Corvette C2 Sting Ray (1963–1967)</h2>
       <p>Famous for its split rear window in 1963, the C2 offered major performance improvements and a bold, aggressive style.</p>
-      <img src=https://static0.topspeedimages.com/wordpress/wp-content/uploads/jpg/201310/chevrolet-corvette-c.jpg alt="Corvette C2" />
+      <img src="https://static0.topspeedimages.com/wordpress/wp-content/uploads/jpg/201310/chevrolet-corvette-c.jpg" alt="Corvette C2" />
     </section>
 
-    <section>
+    <section id="c3">
       <h2>Corvette C3 (1968–1982)</h2>
       <p>The C3 had a long run with curvy "Coke bottle" styling and was the poster car of the 1970s. Early models were fast, later ones tamed by emissions rules.</p>
-      <img src="https://coverking.com/cdn/shop/articles/1979_Chevrolet_Corvette_122104_1024x1024.jpg?v=1646167879 alt="Corvette C3" />
+      <img src="https://coverking.com/cdn/shop/articles/1979_Chevrolet_Corvette_122104_1024x1024.jpg?v=1646167879" alt="Corvette C3" />
     </section>
 
-    <section>
+    <section id="c4">
       <h2>Corvette C4 (1984–1996)</h2>
       <p>The C4 was a big leap in handling and tech. It introduced a modern dashboard and aerodynamic design, making it a capable and comfortable sports car.</p>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r0waEmvm9yko5SUqP9HdvzLS_zo6ps4B-A&s" alt="Corvette C4" />
     </section>
-    <section>
+
+    <section id="c5">
       <h2>Corvette C5 (1997–2004)</h2>
       <p>New chassis, new LS1 engine, and better than ever. The C5 redefined the Corvette with 345+ horsepower and solid build quality.</p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG2KvpmDfOLJ63ex5xN_KshKh0g6hxY8hu5Q&sg" alt="Corvette C5" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/2004_Chevrolet_Corvette_C5_front.jpg" alt="Corvette C5" />
     </section>
 
-    <section>
+    <section id="c6">
       <h2>Corvette C6 (2005–2013)</h2>
       <p>More refined, more powerful, and the first to ditch pop-up headlights. It introduced the Z06 and ZR1, turning the Corvette into a supercar slayer.</p>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq3hClUkFm6Pwup1vWwkTFUubQ4zuRPpdtOQ&s" alt="Corvette C6" />
     </section>
 
-    <section>
+    <section id="c7">
       <h2>Corvette C7 (2014–2019)</h2>
       <p>The return of the Stingray name! With sharp edges and performance to match, the C7 stunned with up to 755hp in the ZR1 version.</p>
       <img src="https://di-uploads-development.dealerinspire.com/hendrickcorvette/uploads/2019/08/Grand-Sport-parked-on-highway-ramp.png" alt="Corvette C7" />
     </section>
 
-    <section>
+    <section id="c8">
       <h2>Corvette C8 (2020–Present)</h2>
       <p>The first-ever mid-engine Corvette. Supercar looks, incredible balance, and still a value beast. It’s the boldest evolution in Corvette history.</p>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFJppaSrX6mLPpZ97AIQm2pYWaJ4nDuKUyZA&s" alt="Corvette C8" />
     </section>
+
+    <section>
+      <h2>Corvette Trivia Quiz</h2>
+      <p>Test your Corvette knowledge!</p>
+      <form id="quiz">
+        <label>1. What year was the first Corvette released?<br />
+          <input type="text" id="q1" />
+        </label><br /><br />
+        <label>2. Which Corvette had the split rear window?<br />
+          <input type="text" id="q2" />
+        </label><br /><br />
+        <label>3. What engine layout does the C8 have?<br />
+          <input type="text" id="q3" />
+        </label><br /><br />
+        <button type="button" onclick="checkQuiz()">Check Answers</button>
+        <p id="quizResult"></p>
+      </form>
+    </section>
   </main>
+
+  <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to Top</button>
+
+  <script>
+    window.onscroll = function () {
+      document.getElementById("backToTop").style.display = window.scrollY > 300 ? "block" : "none";
+    };
+
+    function checkQuiz() {
+      const a1 = document.getElementById("q1").value.trim();
+      const a2 = document.getElementById("q2").value.trim().toLowerCase();
+      const a3 = document.getElementById("q3").value.trim().toLowerCase();
+
+      let score = 0;
+      if (a1 === "1953") score++;
+      if (a2.includes("c2")) score++;
+      if (a3.includes("mid")) score++;
+
+      document.getElementById("quizResult").textContent = `You got ${score}/3 correct!`;
+    }
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All About Corvette</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+      color: #eee;
+      font-family: 'Orbitron', sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 3rem 1rem;
+      text-align: center;
+      border-bottom: 2px solid #cc0000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 2.8rem;
+      color: #cc0000;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      border-left: 4px solid #cc0000;
+      padding-left: 1rem;
+    }
+
+    section h2 {
+      color: #cc0000;
+      font-weight: 600;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    section p {
+      color: #ddd;
+      font-size: 1rem;
+      margin-top: 0;
+    }
+
+    section img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 1rem;
+      box-shadow: 0 2px 8px rgba(204, 0, 0, 0.6);
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    section img:hover {
+      transform: scale(1.02);
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #0a0a0a;
+      border-bottom: 2px solid #cc0000;
+      padding: 0.5rem;
+      text-align: center;
+      z-index: 999;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #eee;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #cc0000;
+    }
+
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      background-color: #cc0000;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>All About Corvette</h1>
+    <img src="https://images.seeklogo.com/logo-png/3/2/corvette-c6-logo-png_seeklogo-35763.png" alt="Corvette Logo" />
+  </header>
+
+  <nav>
+    <a href="#c1">C1</a>
+    <a href="#c2">C2</a>
+    <a href="#c3">C3</a>
+    <a href="#c4">C4</a>
+    <a href="#c5">C5</a>
+    <a href="#c6">C6</a>
+    <a href="#c7">C7</a>
+    <a href="#c8">C8</a>
+  </nav>
+
+  <main>
+    <section id="c1">
+      <h2>Corvette C1 (1953–1962)</h2>
+      <p>The original Corvette launched in 1953 with a fiberglass body and sleek design. It came with a straight-six engine and quickly became an American icon.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg" alt="Corvette C1" />
+    </section>
+
+    <section id="c2">
+      <h2>Corvette C2 Sting Ray (1963–1967)</h2>
+      <p>Famous for its split rear window in 1963, the C2 offered major performance improvements and a bold, aggressive style.</p>
+      <img src="https://static0.topspeedimages.com/wordpress/wp-content/uploads/jpg/201310/chevrolet-corvette-c.jpg" alt="Corvette C2" />
+    </section>
+
+    <section id="c3">
+      <h2>Corvette C3 (1968–1982)</h2>
+      <p>The C3 had a long run with curvy "Coke bottle" styling and was the poster car of the 1970s. Early models were fast, later ones tamed by emissions rules.</p>
+      <img src="https://coverking.com/cdn/shop/articles/1979_Chevrolet_Corvette_122104_1024x1024.jpg?v=1646167879" alt="Corvette C3" />
+    </section>
+
+    <section id="c4">
+      <h2>Corvette C4 (1984–1996)</h2>
+      <p>The C4 was a big leap in handling and tech. It introduced a modern dashboard and aerodynamic design, making it a capable and comfortable sports car.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r0waEmvm9yko5SUqP9HdvzLS_zo6ps4B-A&s" alt="Corvette C4" />
+    </section>
+
+    <section id="c5">
+      <h2>Corvette C5 (1997–2004)</h2>
+      <p>New chassis, new LS1 engine, and better than ever. The C5 redefined the Corvette with 345+ horsepower and solid build quality.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/2004_Chevrolet_Corvette_C5_front.jpg" alt="Corvette C5" />
+    </section>
+
+    <section id="c6">
+      <h2>Corvette C6 (2005–2013)</h2>
+      <p>More refined, more powerful, and the first to ditch pop-up headlights. It introduced the Z06 and ZR1, turning the Corvette into a supercar slayer.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq3hClUkFm6Pwup1vWwkTFUubQ4zuRPpdtOQ&s" alt="Corvette C6" />
+    </section>
+
+    <section id="c7">
+      <h2>Corvette C7 (2014–2019)</h2>
+      <p>The return of the Stingray name! With sharp edges and performance to match, the C7 stunned with up to 755hp in the ZR1 version.</p>
+      <img src="https://di-uploads-development.dealerinspire.com/hendrickcorvette/uploads/2019/08/Grand-Sport-parked-on-highway-ramp.png" alt="Corvette C7" />
+    </section>
+
+    <section id="c8">
+      <h2>Corvette C8 (2020–Present)</h2>
+      <p>The first-ever mid-engine Corvette. Supercar looks, incredible balance, and still a value beast. It’s the boldest evolution in Corvette history.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFJppaSrX6mLPpZ97AIQm2pYWaJ4nDuKUyZA&s" alt="Corvette C8" />
+    </section>
+
+    <section>
+      <h2>Corvette Trivia Quiz</h2>
+      <p>Test your Corvette knowledge!</p>
+      <form id="quiz">
+        <label>1. What year was the first Corvette released?<br />
+          <input type="text" id="q1" />
+        </label><br /><br />
+        <label>2. Which Corvette had the split rear window?<br />
+          <input type="text" id="q2" />
+        </label><br /><br />
+        <label>3. What engine layout does the C8 have?<br />
+          <input type="text" id="q3" />
+        </label><br /><br />
+        <button type="button" onclick="checkQuiz()">Check Answers</button>
+        <p id="quizResult"></p>
+      </form>
+    </section>
+  </main>
+
+  <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to Top</button>
+
+  <script>
+    window.onscroll = function () {
+      document.getElementById("backToTop").style.display = window.scrollY > 300 ? "block" : "none";
+    };
+
+    function checkQuiz() {
+      const a1 = document.getElementById("q1").value.trim();
+      const a2 = document.getElementById("q2").value.trim().toLowerCase();
+      const a3 = document.getElementById("q3").value.trim().toLowerCase();
+
+      let score = 0;
+      if (a1 === "1953") score++;
+      if (a2.includes("c2")) score++;
+      if (a3.includes("mid")) score++;
+
+      document.getElementById("quizResult").textContent = `You got ${score}/3 correct!`;
+    }
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All About Corvette</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+      color: #eee;
+      font-family: 'Orbitron', sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 3rem 1rem;
+      text-align: center;
+      border-bottom: 2px solid #cc0000;
+    }
+
+    header h1 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 2.8rem;
+      color: #cc0000;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      border-left: 4px solid #cc0000;
+      padding-left: 1rem;
+    }
+
+    section h2 {
+      color: #cc0000;
+      font-weight: 600;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    section p {
+      color: #ddd;
+      font-size: 1rem;
+      margin-top: 0;
+    }
+
+    section img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 1rem;
+      box-shadow: 0 2px 8px rgba(204, 0, 0, 0.6);
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    section img:hover {
+      transform: scale(1.02);
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #0a0a0a;
+      border-bottom: 2px solid #cc0000;
+      padding: 0.5rem;
+      text-align: center;
+      z-index: 999;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #eee;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #cc0000;
+    }
+
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      background-color: #cc0000;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>All About Corvette</h1>
+    <img src="https://images.seeklogo.com/logo-png/3/2/corvette-c6-logo-png_seeklogo-35763.png" alt="Corvette Logo" />
+  </header>
+
+  <nav>
+    <a href="#c1">C1</a>
+    <a href="#c2">C2</a>
+    <a href="#c3">C3</a>
+    <a href="#c4">C4</a>
+    <a href="#c5">C5</a>
+    <a href="#c6">C6</a>
+    <a href="#c7">C7</a>
+    <a href="#c8">C8</a>
+  </nav>
+
+  <main>
+    <section id="c1">
+      <h2>Corvette C1 (1953–1962)</h2>
+      <p>The original Corvette launched in 1953 with a fiberglass body and sleek design. It came with a straight-six engine and quickly became an American icon.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg" alt="Corvette C1" />
+    </section>
+
+    <section id="c2">
+      <h2>Corvette C2 Sting Ray (1963–1967)</h2>
+      <p>Famous for its split rear window in 1963, the C2 offered major performance improvements and a bold, aggressive style.</p>
+      <img src="https://static0.topspeedimages.com/wordpress/wp-content/uploads/jpg/201310/chevrolet-corvette-c.jpg" alt="Corvette C2" />
+    </section>
+
+    <section id="c3">
+      <h2>Corvette C3 (1968–1982)</h2>
+      <p>The C3 had a long run with curvy "Coke bottle" styling and was the poster car of the 1970s. Early models were fast, later ones tamed by emissions rules.</p>
+      <img src="https://coverking.com/cdn/shop/articles/1979_Chevrolet_Corvette_122104_1024x1024.jpg?v=1646167879" alt="Corvette C3" />
+    </section>
+
+    <section id="c4">
+      <h2>Corvette C4 (1984–1996)</h2>
+      <p>The C4 was a big leap in handling and tech. It introduced a modern dashboard and aerodynamic design, making it a capable and comfortable sports car.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r0waEmvm9yko5SUqP9HdvzLS_zo6ps4B-A&s" alt="Corvette C4" />
+    </section>
+
+    <section id="c5">
+      <h2>Corvette C5 (1997–2004)</h2>
+      <p>New chassis, new LS1 engine, and better than ever. The C5 redefined the Corvette with 345+ horsepower and solid build quality.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/2004_Chevrolet_Corvette_C5_front.jpg" alt="Corvette C5" />
+    </section>
+
+    <section id="c6">
+      <h2>Corvette C6 (2005–2013)</h2>
+      <p>More refined, more powerful, and the first to ditch pop-up headlights. It introduced the Z06 and ZR1, turning the Corvette into a supercar slayer.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq3hClUkFm6Pwup1vWwkTFUubQ4zuRPpdtOQ&s" alt="Corvette C6" />
+    </section>
+
+    <section id="c7">
+      <h2>Corvette C7 (2014–2019)</h2>
+      <p>The return of the Stingray name! With sharp edges and performance to match, the C7 stunned with up to 755hp in the ZR1 version.</p>
+      <img src="https://di-uploads-development.dealerinspire.com/hendrickcorvette/uploads/2019/08/Grand-Sport-parked-on-highway-ramp.png" alt="Corvette C7" />
+    </section>
+
+    <section id="c8">
+      <h2>Corvette C8 (2020–Present)</h2>
+      <p>The first-ever mid-engine Corvette. Supercar looks, incredible balance, and still a value beast. It’s the boldest evolution in Corvette history.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFJppaSrX6mLPpZ97AIQm2pYWaJ4nDuKUyZA&s" alt="Corvette C8" />
+    </section>
+
+    <section>
+      <h2>Corvette Trivia Quiz</h2>
+      <p>Test your Corvette knowledge!</p>
+      <form id="quiz">
+        <label>1. What year was the first Corvette released?<br />
+          <input type="text" id="q1" />
+        </label><br /><br />
+        <label>2. Which Corvette had the split rear window?<br />
+          <input type="text" id="q2" />
+        </label><br /><br />
+        <label>3. What engine layout does the C8 have?<br />
+          <input type="text" id="q3" />
+        </label><br /><br />
+        <button type="button" onclick="checkQuiz()">Check Answers</button>
+        <p id="quizResult"></p>
+      </form>
+    </section>
+  </main>
+
+  <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to Top</button>
+
+  <script>
+    window.onscroll = function () {
+      document.getElementById("backToTop").style.display = window.scrollY > 300 ? "block" : "none";
+    };
+
+    function checkQuiz() {
+      const a1 = document.getElementById("q1").value.trim();
+      const a2 = document.getElementById("q2").value.trim().toLowerCase();
+      const a3 = document.getElementById("q3").value.trim().toLowerCase();
+
+      let score = 0;
+      if (a1 === "1953") score++;
+      if (a2.includes("c2")) score++;
+      if (a3.includes("mid")) score++;
+
+      document.getElementById("quizResult").textContent = `You got ${score}/3 correct!`;
+    }
+  </script>
 </body>
 </html>
