@@ -1,226 +1,770 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>All About Corvette</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet" />
-  <style>
-    * {
-      box-sizing: border-box;
-    }
 
-    body {
-      margin: 0;
-      background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
-      color: #eee;
-      font-family: 'Orbitron', sans-serif;
-      line-height: 1.6;
-    }
+ <meta charset="UTF-8" />
 
-    header {
-      padding: 3rem 1rem;
-      text-align: center;
-      border-bottom: 2px solid #cc0000;
-    }
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    header h1 {
-      margin: 0;
-      font-weight: 600;
-      font-size: 2.8rem;
-      color: #cc0000;
-    }
+ <title>All About Corvette</title>
 
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
+ <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet" />
 
-    section {
-      margin-bottom: 3rem;
-      border-left: 4px solid #cc0000;
-      padding-left: 1rem;
-    }
+ <style>
 
-    section h2 {
-      color: #cc0000;
-      font-weight: 600;
-      font-size: 1.8rem;
-      margin-bottom: 0.5rem;
-    }
+  * {
 
-    section p {
-      color: #ddd;
-      font-size: 1rem;
-      margin-top: 0;
-    }
+   box-sizing: border-box;
 
-    section img {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      margin-top: 1rem;
-      box-shadow: 0 2px 8px rgba(204, 0, 0, 0.6);
-      display: block;
-      transition: transform 0.3s ease;
-    }
+  }
 
-    section img:hover {
-      transform: scale(1.02);
-    }
 
-    nav {
-      position: sticky;
-      top: 0;
-      background: #0a0a0a;
-      border-bottom: 2px solid #cc0000;
-      padding: 0.5rem;
-      text-align: center;
-      z-index: 999;
-    }
 
-    nav a {
-      margin: 0 1rem;
-      color: #eee;
-      text-decoration: none;
-      font-weight: bold;
-    }
+  body {
 
-    nav a:hover {
-      color: #cc0000;
-    }
+   margin: 0;
 
-    #backToTop {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      padding: 10px 15px;
-      font-size: 14px;
-      border: none;
-      border-radius: 5px;
-      background-color: #cc0000;
-      color: #fff;
-      cursor: pointer;
-      display: none;
-    }
+   background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
 
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
+   color: #eee;
 
-      section h2 {
-        font-size: 1.5rem;
-      }
-    }
-  </style>
+   font-family: 'Orbitron', sans-serif;
+
+   line-height: 1.6;
+
+  }
+
+
+
+  header {
+
+   padding: 3rem 1rem;
+
+   text-align: center;
+
+   border-bottom: 2px solid #cc0000;
+
+  }
+
+
+
+  header h1 {
+
+   margin: 0;
+
+   font-weight: 600;
+
+   font-size: 2.8rem;
+
+   color: #cc0000;
+
+  }
+
+
+
+  main {
+
+   max-width: 900px;
+
+   margin: 2rem auto;
+
+   padding: 0 1rem;
+
+  }
+
+
+
+  section {
+
+   margin-bottom: 3rem;
+
+   border-left: 4px solid #cc0000;
+
+   padding-left: 1rem;
+
+  }
+
+
+
+  section h2 {
+
+   color: #cc0000;
+
+   font-weight: 600;
+
+   font-size: 1.8rem;
+
+   margin-bottom: 0.5rem;
+
+  }
+
+
+
+  section p {
+
+   color: #ddd;
+
+   font-size: 1rem;
+
+   margin-top: 0;
+
+  }
+
+
+
+  section img {
+
+   width: 100%;
+
+   max-width: 100%;
+
+   height: auto;
+
+   border-radius: 8px;
+
+   margin-top: 1rem;
+
+   box-shadow: 0 2px 8px rgba(204, 0, 0, 0.6);
+
+   display: block;
+
+   transition: transform 0.3s ease;
+
+  }
+
+
+
+  section img:hover {
+
+   transform: scale(1.02);
+
+  }
+
+
+
+  nav {
+
+   position: sticky;
+
+   top: 0;
+
+   background: #0a0a0a;
+
+   border-bottom: 2px solid #cc0000;
+
+   padding: 0.5rem;
+
+   text-align: center;
+
+   z-index: 999;
+
+  }
+
+
+
+  nav a {
+
+   margin: 0 1rem;
+
+   color: #eee;
+
+   text-decoration: none;
+
+   font-weight: bold;
+
+  }
+
+
+
+  nav a:hover {
+
+   color: #cc0000;
+
+  }
+
+
+
+  #backToTop {
+
+   position: fixed;
+
+   bottom: 20px;
+
+   right: 20px;
+
+   padding: 10px 15px;
+
+   font-size: 14px;
+
+   border: none;
+
+   border-radius: 5px;
+
+   background-color: #cc0000;
+
+   color: #fff;
+
+   cursor: pointer;
+
+   display: none;
+
+  }
+
+
+
+  .car-card {
+
+   border: 2px solid #cc0000;
+
+   border-radius: 10px;
+
+   padding: 1rem;
+
+   margin-bottom: 2rem;
+
+   background-color: #111;
+
+  }
+
+
+
+  .car-card h3 {
+
+   color: #cc0000;
+
+   font-family: 'Orbitron', sans-serif;
+
+  }
+
+
+
+  .stats {
+
+   display: flex;
+
+   flex-wrap: wrap;
+
+   gap: 1rem;
+
+   margin-top: 1rem;
+
+  }
+
+
+
+  .stat-box {
+
+   border: 1px solid #cc0000;
+
+   padding: 0.5rem 1rem;
+
+   border-radius: 8px;
+
+   background-color: #222;
+
+   font-family: 'Orbitron', sans-serif;
+
+   flex: 1 1 120px;
+
+   text-align: center;
+
+   color: #eee;
+
+  }
+
+
+
+  @media (max-width: 600px) {
+
+   header h1 {
+
+    font-size: 2rem;
+
+   }
+
+
+
+   section h2 {
+
+    font-size: 1.5rem;
+
+   }
+
+  }
+
+ </style>
+
 </head>
+
 <body>
-  <header>
-    <h1>All About Corvette</h1>
-    <img src="https://images.seeklogo.com/logo-png/3/2/corvette-c6-logo-png_seeklogo-35763.png" alt="Corvette Logo" />
-  </header>
 
-  <nav>
-    <a href="#c1">C1</a>
-    <a href="#c2">C2</a>
-    <a href="#c3">C3</a>
-    <a href="#c4">C4</a>
-    <a href="#c5">C5</a>
-    <a href="#c6">C6</a>
-    <a href="#c7">C7</a>
-    <a href="#c8">C8</a>
-  </nav>
+ <header>
 
-  <main>
-    <section id="c1">
-      <h2>Corvette C1 (1953–1962)</h2>
-      <p>The original Corvette launched in 1953 with a fiberglass body and sleek design. It came with a straight-six engine and quickly became an American icon.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg" alt="Corvette C1" />
-    </section>
+  <h1>All About Corvette</h1>
 
-    <section id="c2">
-      <h2>Corvette C2 Sting Ray (1963–1967)</h2>
-      <p>Famous for its split rear window in 1963, the C2 offered major performance improvements and a bold, aggressive style.</p>
-      <img src="https://static0.topspeedimages.com/wordpress/wp-content/uploads/jpg/201310/chevrolet-corvette-c.jpg" alt="Corvette C2" />
-    </section>
+  <img src="https://images.seeklogo.com/logo-png/3/2/corvette-c6-logo-png_seeklogo-35763.png" alt="Corvette Logo" />
 
-    <section id="c3">
-      <h2>Corvette C3 (1968–1982)</h2>
-      <p>The C3 had a long run with curvy "Coke bottle" styling and was the poster car of the 1970s. Early models were fast, later ones tamed by emissions rules.</p>
-      <img src="https://coverking.com/cdn/shop/articles/1979_Chevrolet_Corvette_122104_1024x1024.jpg?v=1646167879" alt="Corvette C3" />
-    </section>
+ </header>
 
-    <section id="c4">
-      <h2>Corvette C4 (1984–1996)</h2>
-      <p>The C4 was a big leap in handling and tech. It introduced a modern dashboard and aerodynamic design, making it a capable and comfortable sports car.</p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r0waEmvm9yko5SUqP9HdvzLS_zo6ps4B-A&s" alt="Corvette C4" />
-    </section>
 
-    <section id="c5">
-      <h2>Corvette C5 (1997–2004)</h2>
-      <p>New chassis, new LS1 engine, and better than ever. The C5 redefined the Corvette with 345+ horsepower and solid build quality.</p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIej0Jo0Dv0nKd1PKlTTr1qXOjHBXfGw6VcQ&s" alt="Corvette C5" />
-    </section>
 
-    <section id="c6">
-      <h2>Corvette C6 (2005–2013)</h2>
-      <p>More refined, more powerful, and the first to ditch pop-up headlights. It introduced the Z06 and ZR1, turning the Corvette into a supercar slayer.</p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq3hClUkFm6Pwup1vWwkTFUubQ4zuRPpdtOQ&s" alt="Corvette C6" />
-    </section>
+ <nav>
 
-    <section id="c7">
-      <h2>Corvette C7 (2014–2019)</h2>
-      <p>The return of the Stingray name! With sharp edges and performance to match, the C7 stunned with up to 755hp in the ZR1 version.</p>
-      <img src="https://di-uploads-development.dealerinspire.com/hendrickcorvette/uploads/2019/08/Grand-Sport-parked-on-highway-ramp.png" alt="Corvette C7" />
-    </section>
+  <a href="#c1">C1</a>
 
-    <section id="c8">
-      <h2>Corvette C8 (2020–Present)</h2>
-      <p>The first-ever mid-engine Corvette. Supercar looks, incredible balance, and still a value beast. It’s the boldest evolution in Corvette history.</p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFJppaSrX6mLPpZ97AIQm2pYWaJ4nDuKUyZA&s" alt="Corvette C8" />
-    </section>
+  <a href="#c2">C2</a>
 
-    <section>
-      <h2>Corvette Trivia Quiz</h2>
-      <p>Test your Corvette knowledge!</p>
-      <form id="quiz">
-        <label>1. What year was the first Corvette released?<br />
-          <input type="text" id="q1" />
-        </label><br /><br />
-        <label>2. Which Corvette had the split rear window?<br />
-          <input type="text" id="q2" />
-        </label><br /><br />
-        <label>3. What engine layout does the C8 have?<br />
-          <input type="text" id="q3" />
-        </label><br /><br />
-        <button type="button" onclick="checkQuiz()">Check Answers</button>
-        <p id="quizResult"></p>
-      </form>
-    </section>
-  </main>
+  <a href="#c3">C3</a>
 
-  <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to Top</button>
+  <a href="#c4">C4</a>
 
-  <script>
-    window.onscroll = function () {
-      document.getElementById("backToTop").style.display = window.scrollY > 300 ? "block" : "none";
-    };
+  <a href="#c5">C5</a>
 
-    function checkQuiz() {
-      const a1 = document.getElementById("q1").value.trim();
-      const a2 = document.getElementById("q2").value.trim().toLowerCase();
-      const a3 = document.getElementById("q3").value.trim().toLowerCase();
+  <a href="#c6">C6</a>
 
-      let score = 0;
-      if (a1 === "1953") score++;
-      if (a2.includes("c2")) score++;
-      if (a3.includes("mid")) score++;
+  <a href="#c7">C7</a>
 
-      document.getElementById("quizResult").textContent = `You got ${score}/3 correct!`;
-    }
-  </script>
+  <a href="#c8">C8</a>
+
+ </nav>
+
+
+
+ <main>
+
+  <section id="c1">
+
+   <h2>C1</h2>
+
+<img src = "https://upload.wikimedia.org/wikipedia/commons/b/b0/Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg"
+
+   <p>The original Corvette debuted in 1953 as a two-seat convertible...</p>
+
+<div class="stats">
+
+    <div class="stat-box">Horsepower: 255 hp</div>
+
+    <div class="stat-box">Top Speed: 125 mph</div>
+
+    <div class="stat-box">0–60: 5.5 sec</div>
+
+    <div class="stat-box">Price: $118,937</div>
+
+    <div class="stat-box">Engine: 3.9L V8 
+
+  </section>
+
+
+
+  <section id="c2">
+
+   <h2>C2</h2>
+
+<img src = "https://static0.topspeedimages.com/wordpress/wp-content/uploads/jpg/201310/chevrolet-corvette-c.jpg"
+
+   <p>The second-generation Corvette was produced from 1963 to 1967...</p>
+
+<div class="stats">
+
+    <div class="stat-box">Horsepower: 250 hp</div>
+
+    <div class="stat-box">Top Speed: 153 mph</div>
+
+    <div class="stat-box">0–60: 6.0 sec</div>
+
+    <div class="stat-box">Price: $124,340</div>
+
+    <div class="stat-box">Engine: small/big block V8
+
+  </section>
+
+
+
+  <section id="c3">
+
+   <h2>C3</h2>
+
+<img src = "https://coverking.com/cdn/shop/articles/1979_Chevrolet_Corvette_122104_1280x.jpg?v=1646167879"
+
+   <p>The C3 ran from 1968 through 1982 with a distinctive shape...</p>
+
+<div class="stats">
+
+    <div class="stat-box">Horsepower: 435 hp</div>
+
+    <div class="stat-box">Top Speed: 130 mph</div>
+
+    <div class="stat-box">0–60: 7.9 sec</div>
+
+    <div class="stat-box">Price: $93,000</div>
+
+    <div class="stat-box">Engine: 5.4L V8 
+
+  </section>
+
+
+
+  <section id="c4">
+
+   <h2>C4</h2>
+
+<img src = "https://www.autolist.com/6tuem73u73an/6DMthrpd0DCMXodMieDcwZ/ffef52d0f1a5a68d3b3ca6ff0778be73/1990_Corvette_ZR1_C5909-R774-0007.jpg"
+
+   <p>Introduced in 1984, the C4 brought digital instrumentation...</p>
+
+<div class="stats">
+
+    <div class="stat-box">Horsepower: 240 hp</div>
+
+    <div class="stat-box">Top Speed: 179 mph</div>
+
+    <div class="stat-box">0–60: 5.7 sec</div>
+
+    <div class="stat-box">Price: $9,000</div>
+
+    <div class="stat-box">Engine: 5.7L V8 
+
+  </section>
+
+
+
+  <section id="c5">
+
+   <h2>C5</h2>
+
+<img src = "https://aldanamerican.com/wp-content/uploads/2023/07/97-corvette-feature.png"
+
+   <p>The C5 debuted in 1997 with a new LS1 engine and transaxle layout...</p>
+
+<div class="stats">
+
+    <div class="stat-box">Horsepower: 350 hp</div>
+
+    <div class="stat-box">Top Speed: 172 mph</div>
+
+    <div class="stat-box">0–60: 5 sec</div>
+
+    <div class="stat-box">Price: $35,000</div>
+
+    <div class="stat-box">Engine: LS1 5.7L V8 
+
+  </section>
+
+  </section>
+
+
+
+  <section id="c6">
+
+   <h2>C6</h2>
+
+<img src = "https://cdn3.focus.bg/autodata/i/chevrolet/corvette/corvette-coupe-z06c6/large/8190945b183baaff0ba68635f0f3666a.jpg"
+
+   <p>The sixth generation ran from 2005–2013 and included the return of exposed headlights...</p>
+
+<div class="stats">
+
+    <div class="stat-box">Horsepower: 430 hp</div>
+
+    <div class="stat-box">Top Speed: 186 mph</div>
+
+    <div class="stat-box">0–60: 4 sec</div>
+
+    <div class="stat-box">Price: $23,000</div>
+
+    <div class="stat-box">Engine: LS2 6L V8 + 
+
+  </section>
+
+  </section>
+
+
+
+  <section id="c7">
+
+   <h2>C7</h2>
+
+<img src = "https://di-uploads-development.dealerinspire.com/hendrickcorvette/uploads/2019/08/Grand-Sport-parked-on-highway-ramp.png"
+
+   <p>The C7 came out in 2014, reintroducing the Stingray name and featuring sharp, angular design...</p>
+
+<div class="stats">
+
+    <div class="stat-box">Horsepower: 460 hp</div>
+
+    <div class="stat-box">Top Speed: 215 mph</div>
+
+    <div class="stat-box">0–60: 3.7 sec</div>
+
+    <div class="stat-box">Price: $56,046</div>
+
+    <div class="stat-box">Engine: 6.2L LT1 V8
+
+  </section>
+
+
+
+  <section id="c8">
+
+   <h2>C8</h2>
+
+<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFJppaSrX6mLPpZ97AIQm2pYWaJ4nDuKUyZA&s"
+
+   <p>First launched in 2020, the C8 is the first mid-engine Corvette and a huge step forward in performance...</p>
+
+<div class="stats">
+
+    <div class="stat-box">Horsepower: 495 hp</div>
+
+    <div class="stat-box">Top Speed: 233 mph</div>
+
+    <div class="stat-box">0–60: 2.8 sec</div>
+
+    <div class="stat-box">Price: $128,577</div>
+
+    <div class="stat-box">Engine: 6.2L LT2 V8
+
+  </section>
+
+
+
+  <section>
+
+   <h2 style="color: #cc0000; font-family: 'Orbitron', sans-serif;">More Cars!</h2>
+
+  </section>
+
+
+
+  <section class="car-card">
+
+   <h3>Z06</h3>
+
+   <img src="https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2025/performance/corvette-z06/mov/01-images/2025-z06-masthead-01.png?imwidth=1200" alt="Corvette Z06">
+
+   <div class="stats">
+
+    <div class="stat-box">Horsepower: 670 hp</div>
+
+    <div class="stat-box">Top Speed: 195 mph</div>
+
+    <div class="stat-box">0–60: 2.6 sec</div>
+
+    <div class="stat-box">Price: $105,300</div>
+
+    <div class="stat-box">Engine: 5.5L V8</div>
+
+    <div class="stat-box">Drivetrain: RWD</div>
+
+   </div>
+
+  </section>
+
+
+
+  <section class="car-card">
+
+   <h3>ZR1</h3>
+
+   <img src="https://corvettemike.com/wp-content/uploads/2024/12/C8-ZR1.jpg" alt="Corvette ZR1">
+
+   <div class="stats">
+
+    <div class="stat-box">Horsepower: 755 hp</div>
+
+    <div class="stat-box">Top Speed: 212 mph</div>
+
+    <div class="stat-box">0–60: 2.85 sec</div>
+
+    <div class="stat-box">Price: $121,000</div>
+
+    <div class="stat-box">Engine: 6.2L Supercharged V8</div>
+
+    <div class="stat-box">Drivetrain: RWD</div>
+
+   </div>
+
+  </section>
+
+
+
+  <section class="car-card">
+
+   <h3>Stingray E-Ray</h3>
+
+   <img src="https://www.motortrend.com/uploads/2023/01/2024-chevrolet-corvette-e-ray-hybrid-awd-11.jpg" alt="Stingray E-Ray">
+
+   <div class="stats">
+
+    <div class="stat-box">Horsepower: 655 hp</div>
+
+    <div class="stat-box">Top Speed: 183 mph</div>
+
+    <div class="stat-box">0–60: 2.5 sec</div>
+
+    <div class="stat-box">Price: $104,900</div>
+
+    <div class="stat-box">Engine: 6.2L V8 + Electric</div>
+
+    <div class="stat-box">Drivetrain: AWD</div>
+
+   </div>
+
+  </section>
+
+
+
+  <section>
+
+   <h2 style="color: #cc0000; font-family: 'Orbitron', sans-serif;">Corvette Trivia Quiz</h2>
+
+   <p>Test your Corvette knowledge!</p>
+
+   <form id="quiz">
+
+    <label>1. What year was the first Corvette released?<br />
+
+     <input type="text" id="q1" />
+
+    </label><br /><br />
+
+    <label>2. Which Corvette had the split rear window?<br />
+
+     <input type="text" id="q2" />
+
+    </label><br /><br />
+
+    <label>3. What engine layout does the C8 have?<br />
+
+     <input type="text" id="q3" />
+
+    </label><br /><br />
+
+    <label>4. What is the name of the electric hybrid Corvette?<br />
+
+     <input type="text" id="q4" />
+
+    </label><br /><br />
+
+    <label>5. What generation is the current (mid-engine) Corvette?<br />
+
+     <input type="text" id="q5" />
+
+    </label><br /><br />
+
+    <label>6. Which Corvette reached over 200mph?<br />
+
+     <input type="text" id="q6" />
+
+    </label><br /><br />
+
+    <label>7. What does Z06 usually stand for in Corvette models?<br />
+
+     <input type="text" id="q7" />
+
+    </label><br /><br />
+
+    <label>8. In what year did the Stingray name return?<br />
+
+     <input type="text" id="q8" />
+
+    </label><br /><br />
+
+    <button type="button" onclick="checkQuiz()">Check Answers</button>
+
+    <p id="quizResult"></p>
+
+   </form>
+
+  </section>
+
+ </main>
+
+
+
+ <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Back to Top</button>
+
+
+
+ <script>
+
+  window.onscroll = function () {
+
+   document.getElementById("backToTop").style.display = window.scrollY > 300 ? "block" : "none";
+
+  };
+
+
+
+  function checkQuiz() {
+
+   const answers = [
+
+    document.getElementById("q1").value.trim(),
+
+    document.getElementById("q2").value.trim().toLowerCase(),
+
+    document.getElementById("q3").value.trim().toLowerCase(),
+
+    document.getElementById("q4").value.trim().toLowerCase(),
+
+    document.getElementById("q5").value.trim(),
+
+    document.getElementById("q6").value.trim().toLowerCase(),
+
+    document.getElementById("q7").value.trim().toLowerCase(),
+
+    document.getElementById("q8").value.trim()
+
+   ];
+
+
+
+   let score = 0;
+
+   if (answers[0] === "1953") score++;
+
+   if (answers[1].includes("c2")) score++;
+
+   if (answers[2].includes("mid")) score++;
+
+   if (answers[3].includes("e-ray")) score++;
+
+   if (answers[4] === "8" || answers[4] === "c8") score++;
+
+   if (answers[5].includes("zr1")) score++;
+
+   if (answers[6].includes("track") || answers[6].includes("performance")) score++;
+
+   if (answers[7] === "2014") score++;
+
+
+
+   document.getElementById("quizResult").textContent = `You got ${score}/8 correct!`;
+
+  }
+
+ </script>
+
 </body>
+
 </html>
+
+<!-- Corvette Footer -->
+
+<div style="position: relative; width: 100%; overflow: hidden;">
+
+ <img src="https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2025/performance/stingray/mov/01-images/2025-stingray-masthead-01.png?imwidth=3000" alt="Corvette" style="width: 100%; display: block;">
+
+ <div style="position: absolute; top: 20%; left: 50%; transform: translateX(-50%); text-align: center; color: black; font-family: 'Orbitron', sans-serif;">
+
+  <h2 style="margin: 0; font-size: 2rem;">Visit Official Corvette Website</h2>
+
+  <a href="https://www.chevrolet.com/performance/corvette" target="_blank" style="margin-top: 10px; display: inline-block; padding: 10px 20px; background-color: black; color: white; text-decoration: none; border-radius: 5px; font-size: 1rem;">Visit</a>
+
+ </div>
+
+</div>
+
